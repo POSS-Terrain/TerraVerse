@@ -1,0 +1,890 @@
+{
+  "ACDC": {
+    "labels": {
+      "road": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      },
+      "sidewalk": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "pavement",
+        "traversability": null
+      }
+    }
+  },
+  "COCO-Stuff": {
+    "labels": {
+      "dirt": {
+        "category": "Natural Surfaces",
+        "material": "dirt",
+        "function": null,
+        "traversability": null
+      },
+      "grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "moss": {
+        "category": "Vegetation Surfaces",
+        "material": "moss",
+        "function": null,
+        "traversability": null
+      },
+      "mud": {
+        "category": "Natural Surfaces",
+        "material": "mud",
+        "function": null,
+        "traversability": null
+      },
+      "pavement": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "pavement",
+        "traversability": null
+      },
+      "railroad": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "railroad",
+        "traversability": null
+      },
+      "river": {
+        "category": "Other Surfaces",
+        "material": "water",
+        "function": null,
+        "traversability": null
+      },
+      "road": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      },
+      "rock": {
+        "category": "Natural Surfaces",
+        "material": "rock",
+        "function": null,
+        "traversability": null
+      },
+      "sand": {
+        "category": "Natural Surfaces",
+        "material": "sand",
+        "function": null,
+        "traversability": null
+      },
+      "sea": {
+        "category": "Other Surfaces",
+        "material": "water",
+        "function": null,
+        "traversability": null
+      },
+      "snow": {
+        "category": "Other Surfaces",
+        "material": "snow",
+        "function": null,
+        "traversability": null
+      },
+      "stone": {
+        "category": "Natural Surfaces",
+        "material": "rock",
+        "function": null,
+        "traversability": null
+      },
+      "water-other": {
+        "category": "Other Surfaces",
+        "material": "water",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "DeepScene": {
+    "labels": {
+      "grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "road": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      }
+    }
+  },
+  "FCDD": {
+    "labels": {
+      "Asphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": null,
+        "traversability": null
+      },
+      "Dirt-road": {
+        "category": "Natural Surfaces",
+        "material": "dirt",
+        "function": null,
+        "traversability": null
+      },
+      "Hard-sand": {
+        "category": "Natural Surfaces",
+        "material": "sand",
+        "function": null,
+        "traversability": null
+      },
+      "Pothole": {
+        "category": "Natural Surfaces",
+        "material": "dirt",
+        "function": null,
+        "traversability": null
+      },
+      "Wet-sand": {
+        "category": "Natural Surfaces",
+        "material": "sand",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "GOOSE": {
+    "labels": {
+      "asphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": null,
+        "traversability": null
+      },
+      "cobble": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "cobble",
+        "function": null,
+        "traversability": null
+      },
+      "debris": {
+        "category": "Natural Surfaces",
+        "material": "mulch",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "high_grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "leaves": {
+        "category": "Vegetation Surfaces",
+        "material": "leaves",
+        "function": null,
+        "traversability": null
+      },
+      "low_grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "moss": {
+        "category": "Vegetation Surfaces",
+        "material": "moss",
+        "function": null,
+        "traversability": null
+      },
+      "rock": {
+        "category": "Natural Surfaces",
+        "material": "rock",
+        "function": null,
+        "traversability": null
+      },
+      "sidewalk": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "pavement",
+        "traversability": null
+      },
+      "snow": {
+        "category": "Other Surfaces",
+        "material": "snow",
+        "function": null,
+        "traversability": null
+      },
+      "soil": {
+        "category": "Natural Surfaces",
+        "material": "soil",
+        "function": null,
+        "traversability": null
+      },
+      "water": {
+        "category": "Other Surfaces",
+        "material": "water",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "GOOSE-Ex": {
+    "labels": {
+      "asphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": null,
+        "traversability": null
+      },
+      "cobble": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "pavement",
+        "traversability": null
+      },
+      "debris": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "high_grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "leaves": {
+        "category": "Vegetation Surfaces",
+        "material": "leaves",
+        "function": null,
+        "traversability": null
+      },
+      "low_grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "rail_track": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "railroad",
+        "traversability": null
+      },
+      "rock": {
+        "category": "Natural Surfaces",
+        "material": "rock",
+        "function": null,
+        "traversability": null
+      },
+      "soil": {
+        "category": "Natural Surfaces",
+        "material": "soil",
+        "function": null,
+        "traversability": null
+      },
+      "water": {
+        "category": "Other Surfaces",
+        "material": "puddle",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "IDD": {
+    "labels": {
+      "drivable fallback": {
+        "category": null,
+        "material": null,
+        "function": null,
+        "traversability": "traversable"
+      },
+      "non-drivable fallback": {
+        "category": null,
+        "material": null,
+        "function": null,
+        "traversability": "non-traversable"
+      },
+      "obs-str-bar-fallback": {
+        "category": null,
+        "material": null,
+        "function": null,
+        "traversability": "non-traversable"
+      },
+      "parking": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      },
+      "road": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      },
+      "sidewalk": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "pavement",
+        "traversability": null
+      }
+    }
+  },
+  "Jackal": {
+    "labels": {
+      "asphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": null,
+        "traversability": null
+      },
+      "brick": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "brick",
+        "function": null,
+        "traversability": null
+      },
+      "coated floor": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "coated floor",
+        "function": null,
+        "traversability": null
+      },
+      "grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "pavement": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "pavement",
+        "traversability": null
+      },
+      "sand": {
+        "category": "Natural Surfaces",
+        "material": "sand",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "KITTI-360": {
+    "labels": {
+      "ground": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      },
+      "parking": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      },
+      "rail track": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "railroad",
+        "traversability": null
+      },
+      "road": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      },
+      "sidewalk": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "pavement",
+        "traversability": null
+      }
+    }
+  },
+  "ORAD-3D": {
+    "labels": {
+      "road": {
+        "category": null,
+        "material": null,
+        "function": null,
+        "traversability": "traversable"
+      },
+      "non-road": {
+        "category": null,
+        "material": null,
+        "function": null,
+        "traversability": "non-traversable"
+      }
+    }
+  },
+  "ORAD-3D-Label": {
+    "labels": {
+      "road": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      },
+      "grass-on-road": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "safe-road": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "road",
+        "traversability": null
+      },
+      "water": {
+        "category": "Other Surfaces",
+        "material": "water",
+        "function": null,
+        "traversability": null
+      },
+      "snow": {
+        "category": "Other Surfaces",
+        "material": "snow",
+        "function": null,
+        "traversability": null
+      },
+      "rock": {
+        "category": "Natural Surfaces",
+        "material": "rock",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "ORFD": {
+    "labels": {
+      "non-traversable": {
+        "category": null,
+        "material": null,
+        "function": null,
+        "traversability": "non-traversable"
+      },
+      "traversable": {
+        "category": null,
+        "material": null,
+        "function": null,
+        "traversability": "traversable"
+      }
+    }
+  },
+  "RELLIS": {
+    "labels": {
+      "concrete": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "concrete",
+        "function": null,
+        "traversability": null
+      },
+      "grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "mud": {
+        "category": "Natural Surfaces",
+        "material": "mud",
+        "function": null,
+        "traversability": null
+      },
+      "puddle": {
+        "category": "Other Surfaces",
+        "material": "puddle",
+        "function": null,
+        "traversability": null
+      },
+      "rubble": {
+        "category": "Natural Surfaces",
+        "material": "rock",
+        "function": null,
+        "traversability": null
+      },
+      "water": {
+        "category": "Other Surfaces",
+        "material": "water",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "RSCD": {
+    "labels": {
+      "asphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": null,
+        "traversability": null
+      },
+      "concrete": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "concrete",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "ice": {
+        "category": "Other Surfaces",
+        "material": "ice",
+        "function": null,
+        "traversability": null
+      },
+      "mud": {
+        "category": "Natural Surfaces",
+        "material": "mud",
+        "function": null,
+        "traversability": null
+      },
+      "snow": {
+        "category": "Other Surfaces",
+        "material": "snow",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "RTK": {
+    "labels": {
+      "roadAsphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": "road",
+        "traversability": null
+      },
+      "roadPaved": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "pavement",
+        "traversability": null
+      },
+      "roadUnpaved": {
+        "category": "Natural Surfaces",
+        "material": "dirt",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "RUGD": {
+    "labels": {
+      "asphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": null,
+        "traversability": null
+      },
+      "concrete": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "concrete",
+        "function": null,
+        "traversability": null
+      },
+      "dirt": {
+        "category": "Natural Surfaces",
+        "material": "dirt",
+        "function": null,
+        "traversability": null
+      },
+      "grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "mulch": {
+        "category": "Natural Surfaces",
+        "material": "mulch",
+        "function": null,
+        "traversability": null
+      },
+      "rock": {
+        "category": "Natural Surfaces",
+        "material": "rock",
+        "function": null,
+        "traversability": null
+      },
+      "rock-bed": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "sand": {
+        "category": "Natural Surfaces",
+        "material": "sand",
+        "function": null,
+        "traversability": null
+      },
+      "water": {
+        "category": "Other Surfaces",
+        "material": "water",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "TAS500": {
+    "labels": {
+      "asphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "high grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "low grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "soil": {
+        "category": "Natural Surfaces",
+        "material": "soil",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "TerraPOSS": {
+    "labels": {
+      "asphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": null,
+        "traversability": null
+      },
+      "board": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "board",
+        "function": null,
+        "traversability": null
+      },
+      "brick": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "brick",
+        "function": null,
+        "traversability": null
+      },
+      "concrete": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "concrete",
+        "function": null,
+        "traversability": null
+      },
+      "flagstone": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "flagstone",
+        "function": null,
+        "traversability": null
+      },
+      "grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "sand": {
+        "category": "Natural Surfaces",
+        "material": "sand",
+        "function": null,
+        "traversability": null
+      },
+      "synthetic track": {
+        "category": "Structured / Artificial Surfaces",
+        "material": null,
+        "function": "synthetic track",
+        "traversability": null
+      }
+    }
+  },
+  "VAST": {
+    "labels": {
+      "asphalt": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "asphalt",
+        "function": null,
+        "traversability": null
+      },
+      "brick": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "brick",
+        "function": null,
+        "traversability": null
+      },
+      "concrete": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "concrete",
+        "function": null,
+        "traversability": null
+      },
+      "grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "ice": {
+        "category": "Other Surfaces",
+        "material": "ice",
+        "function": null,
+        "traversability": null
+      },
+      "mulch": {
+        "category": "Natural Surfaces",
+        "material": "mulch",
+        "function": null,
+        "traversability": null
+      },
+      "sand": {
+        "category": "Natural Surfaces",
+        "material": "sand",
+        "function": null,
+        "traversability": null
+      },
+      "tile": {
+        "category": "Structured / Artificial Surfaces",
+        "material": "tile",
+        "function": null,
+        "traversability": null
+      },
+      "turf": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "WildScenes": {
+    "labels": {
+      "dirt": {
+        "category": "Natural Surfaces",
+        "material": "dirt",
+        "function": null,
+        "traversability": null
+      },
+      "grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": null
+      },
+      "gravel": {
+        "category": "Natural Surfaces",
+        "material": "gravel",
+        "function": null,
+        "traversability": null
+      },
+      "mud": {
+        "category": "Natural Surfaces",
+        "material": "mud",
+        "function": null,
+        "traversability": null
+      },
+      "rock": {
+        "category": "Natural Surfaces",
+        "material": "rock",
+        "function": null,
+        "traversability": null
+      },
+      "water": {
+        "category": "Other Surfaces",
+        "material": "water",
+        "function": null,
+        "traversability": null
+      }
+    }
+  },
+  "YCOR": {
+    "labels": {
+      "grass": {
+        "category": "Vegetation Surfaces",
+        "material": "grass",
+        "function": null,
+        "traversability": "traversable"
+      },
+      "rough trail": {
+        "category": "Natural Surfaces",
+        "material": "sand",
+        "function": null,
+        "traversability": null
+      },
+      "smooth trail": {
+        "category": "Natural Surfaces",
+        "material": "soil",
+        "function": null,
+        "traversability": null
+      }
+    }
+  }
+}
